@@ -4,7 +4,7 @@ The biggest issue I was attempting to solve was that versions were not tagged to
 
 This flake will automatically update to the latest release regardless of Stable or Unstable channel. It also enables the use of the latest Unstable or Stable builds, if one wishes to remain on a specific release channel.
 
-Enable this repo in your flake.nix inputs using `vintagestory.url = "github.com/powerofthe69/vintagestory-latest-nix";.
+Enable this repo in your flake.nix inputs using `vintagestory.url = "github.com/powerofthe69/vintagestory-latest-nix";`.
 
 Enable the overlay using `nixpkgs.overlays = [ vintagestory.overlay.default ];`.
 
