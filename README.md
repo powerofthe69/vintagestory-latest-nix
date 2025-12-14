@@ -10,12 +10,12 @@ Enable the overlay using `nixpkgs.overlays = [ vintagestory.overlay.default ];`.
 
 To install the latest version, which will be either stable or unstable, use:
 
-`users.users.${whoami}.packages = ( with pkgs; [ vintagestory ] );`
+`environment.systemPackages = with pkgs; [ vintagestory ];` or `users.users.youruser.packages = with pkgs; [ vintagestory ];`
 
 Stable can be installed using:
 
-`users.users.${whoami}.packages = ( with pkgs; [ vintagestory.stable ] );`
+`environment.systemPackages = with pkgs; [ vintagestory-stable ];` or `users.users.youruser.packages = with pkgs; [ vintagestory-stable ];`
 
 Unstable can be installed using:
 
-`users.users.${whoami}.packages = ( with pkgs; [ vintagestory.unstable ] );`
+`environment.systemPackages = with pkgs; [ vintagestory-unstable ];` or `users.users.youruser.packages = with pkgs; [ vintagestory-unstable ];`
