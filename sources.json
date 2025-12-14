@@ -1,0 +1,17 @@
+{
+  "stable": {
+    "version": "1.21.6",
+    "url": "https://cdn.vintagestory.at/gamefiles/stable/vs_client_linux-x64_1.21.6.tar.gz",
+    "hash": "0is7v2rbv0y699sslb81mp6lxa5y977gljhv4xkalc5xqpzqnj1f"
+  },
+  "unstable": {
+    "version": "1.21.6-rc.1",
+    "url": "https://cdn.vintagestory.at/gamefiles/unstable/vs_client_linux-x64_1.21.6-rc.1.tar.gz",
+    "hash": "1bg0ka2k8n0ip5yg8jnyq804fs1nf33x49ghcvqq2m54dv0gh72q"
+  },
+  "latest": {
+    "version": "1.21.6",
+    "url": "https://cdn.vintagestory.at/gamefiles/stable/vs_client_linux-x64_1.21.6.tar.gz",
+    "hash": "0is7v2rbv0y699sslb81mp6lxa5y977gljhv4xkalc5xqpzqnj1f"
+  }
+}
