@@ -1,3 +1,9 @@
+# This repo is being archived in favor of a joint repo that I have stood up that includes Nix packages for mesa-git, proton-cachyos, vintage-story, etc.
+
+**From this point forward, the only repos that I plan to actively maintain are the [proton-cachyos-nix repository](https://github.com/powerofthe69/proton-cachyos-nix) (as it has a small overhead), and the [nix-gaming-edge repository](https://github.com/powerofthe69/nix-gaming-edge) that will actively maintain a mesa-git module and any new packages moving forward.**
+
+
+
 This flake was created because I was not fully satisfied with the existing flakes I've used for Vintage Story. I don't even play this game really, but I wanted to have this created if I ever do since my friends play often. I could stop maintaining this repo at any point, but hopefully it will simply sustain itself.
 
 The biggest issue I was attempting to solve was that versions were not tagged to the latest release automatically regardless of the stable or unstable channel. Part of the problem was that the Unstable channel is not updated to the latest release, and instead lags behind Stable by hosting release candidate builds that sometimes fall behind the latest stable release. I personally believe that the Unstable branch should host the latest release, even if it mirrors the Stable branch. But, this prevents needing to have the devs make that change.
